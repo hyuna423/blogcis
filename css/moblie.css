@@ -1,41 +1,140 @@
 
 /*데탑*/
 @media screen and (max-width:1440px) {
+  /* roadmap */
+  .roadmap_box {
+    width: 95%;
+  }
+
+  /* footer */
+  .f_left {
+    width: 23%;
+  }
+
 }
 
 
 
 /*노트북*/
-  @media screen and (max-width:1024px) {
+@media screen and (max-width:1024px) {
+  /* footer */
+  .f_left img {
+    max-width: 20%;
+  }
+  .contact_wrap form input.send {
+    width: 30%;
+  }
 }
 
 
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+  /* roadmap */
+  .roadmap_box ul {
+    flex-direction: column;
+  }
+  .roadmap_box ul img {
+    margin-bottom: 3%;
+  }
+  .roadmap_box ul h5 {
+    margin-bottom: 2%;
+  }
+  .roadmap_box hr.rdm_line1, .roadmap_box hr.rdm_line2{
+    width: 450px;
+    height: 1px;
+    margin-top: 0;
+    margin-bottom: 0%;
+  }
+  .roadmap_box hr.rdm_line1::before, .roadmap_box hr.rdm_line2::before {
+    left: 100%;
+  }
+
+  /* footer */
+  .footer_area {
+    padding: 4% 0;
+  }
+  .footer_top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer_top h4 {
+    margin-bottom: 20px;
+  }
+  .f_left {
+    width: 30%;
+    margin-bottom: 3%;
+  }
+  .f_center {
+    width: 50%;
+    margin-bottom: 3%;
+  } 
+  .f_right {
+    margin-bottom: 3%;
+  }
+
 }
 
 
 
 /*모바일*/
-
 @media screen and (max-width:767px) {
+  /* roadmap */
+  .roadmap_box hr.rdm_line1, .roadmap_box hr.rdm_line2{
+    width: 350px;
+  }
 
+  /* contact */
+  .contact_wrap form input.email {
+    width: 90%;
+    padding: 1.5% 1.35%;
+  }
+  .contact_wrap form textarea {
+    margin-top: 2%;
+    width: 90%;
+    height: 300px;
+  }
+  .contact_wrap form input.send {
+    width: 50%;
+    padding: 2% 1.8%;
+  }
+  
+  /* footer */
+  .f_left {
+    width: 45%;
+  }
 }
 
 
 /*모바일2*/
-
-
 @media screen and (max-width:576px) {
-
+  /* roadmap */
+  .roadmap_box {
+    width: 95%;
+  }
+  .roadmap_box ul li {
+    margin-left: 5%;
+  }
+  /* footer */
+  .contact_wrap form input.email {
+    width: 80%;
+  }
+  .contact_wrap form textarea {
+    width: 80%;
+  }
 }
 
 
 
 /*모바일3 갤럭시*/
-
   @media screen and (max-width:425px) {
+    /* roadmap */
+    .roadmap_box hr.rdm_line1, .roadmap_box hr.rdm_line2{
+      width: 250px;
+      height: 1px;
+      margin-top: 0;
+    }
 
 }
 
@@ -43,5 +142,8 @@
 
 /*모바일4 아이폰*/
     @media screen and (max-width:375px) {
-
+    /* roadmap */
+    .roadmap_box {
+      width: 90%;
+    }
 }
