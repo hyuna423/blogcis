@@ -29,6 +29,7 @@
   <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="js/menu_scroll.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   
 </head>
 
@@ -37,78 +38,178 @@
 <body>
 
 
-  <header>
 
-    <div class="">
-
-      <hgroup>
-
-        <h1><img src="img/" alt="logo"></h1>
-
-      </hgroup>
-
-
-      <nav class="">
-        <ul>
-
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-
-        </ul>
-      </nav>
-
-
-      <!--반응형-->
-
-      <div class="">
-
-        <img src="img/" alt="menu_button">
-
-      </div>
-
-      <nav class="">
-
-        <ul>
-
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-
-        </ul>
-
-      </nav>
-
-      <!--반응형 js-->
-      <script type="text/javascript">
-        $(function () {
-          $("").click(function () {
-            $("").animate({ width: "toggle" }, 250);
-          });
-        });
-
-      </script>
-
-    </div>
-
-  </header>
 
   <main>
+    <section id="intro3">
+      <div class="intro3_wrap container">
+        <h3 data-aos="fade-up"
+        data-aos-duration="1000">블로직스 <span> 는 <br> 글로벌 공급망 참여 주체들에게 최적의 기회를 제공합니다</span></h3>
+
+        <div class="intro3_wrap_content">
+          <div class="intro3_cont_left" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="1500">
+            <div class="intro3_cont_left_texts">
+
+              <a class="item is-active" active-color='#30A4DD'>
+                항공운송업체
+              </a>
+
+              <a class="item" active-color='#30A4DD'>
+                해상운송업체
+              </a>
+
+              <a class="item" active-color='#30A4DD'>
+                내륙운송업체
+              </a>
+
+              <a class="item" active-color='#30A4DD'>
+                대형물자중개상
+              </a>
+
+              <span class="indicator">
+                <div class="intro3_circle">
+                  <div class="intro3_outCircle">
+                    <div class="intro3_inCircle"></div>
+                  </div>
+              </span>
+
+              </div>
+                
+          </div>
+        </div>
+
+        <div class="intro3_cont_right"  data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="1500">
+          <div class="intro3_cont_right_box">
+            <img src="img/intro3.png" alt="">
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+            
+
+
+
+
+            <section id="coin">
+              
+              <h3 data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1000">Blogics Coin<span>자금배분계획</span></h3>
+              <div class="coin_wrap">
+                
+                <div class="coin_wrap_box">
+                  
+                  
+                  <div class="coin_wrap_box_left" data-aos="flip-left">
+            <img src="img/pie_graph.png" alt="">
+          </div>
+
+
+          <div class="coin_wrap_box_right" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="coin_right_content">
+              <div class="coin_right_cont_up">
+                <div class="coin_right_cont_up_upTxt">
+                  <h4>Coin name:Blogics</h4>
+                  <h4>Protocol: ERC20</h4>
+                </div>
+                <div class="coin_right_cont_up_DownTxt">
+                  <h4>Symbol: GSBL</h4>
+                  <h4>Total supply: 300,000,000</h4>
+                </div>
+              </div>  
+
+              <div class="coin_right_cont_down">
+                <div class="swiper-container">
+                  <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                      <div class="cont_right_icon_box">
+                        <div class="cont_right_icon"><img src="img/coin_icon1.png" alt=""></div>
+                          <div class="cont_right_icon_txt">
+                            <h5>팀&어드바이저</h5>
+                            <p>5%</p>
+                            <h6>15,000,000</h6>
+                          </div>
+                      </div>
+                    </li>
+
+                    <li class="swiper-slide"> 
+                      <div class="cont_right_icon_box">
+                        <div class="cont_right_icon"><img src="img/coin_icon2.png" alt=""></div>
+                        <div class="cont_right_icon_txt">
+                          <h5>회사 보유</h5>
+                          <p>5%</p>
+                          <h6>15,000,000</h6>
+                      </div>
+                    </li>
+
+                    <li class="swiper-slide"> 
+                      <div class="cont_right_icon_box icon_box3">
+                        <div class="cont_right_icon"><img src="img/coin_icon3.png" alt=""></div>
+                        <div class="cont_right_icon_txt">
+                          <h5>판매</h5>
+                          <p>15%</p>
+                          <h6>45,000,000</h6>
+                      </div>
+                    </li>
+
+                    <li class="swiper-slide"> 
+                      <div class="cont_right_icon_box">
+                        <div class="cont_right_icon"><img src="img/coin_icon4.png" alt=""></div>
+                        <div class="cont_right_icon_txt">
+                          <h5>마케팅</h5>
+                          <p>20%</p>
+                          <h6>60,000,000</h6>
+                      </div>
+                    </li>
+                    
+                    <li class="swiper-slide"> 
+                      <div class="cont_right_icon_box">
+                        <div class="cont_right_icon"><img src="img/coin_icon5.png" alt=""></div>
+                        <div class="cont_right_icon_txt">
+                          <h5>통합 시스템 개발</h5>
+                          <p>20%</p>
+                          <h6>60,000,000</h6>
+                      </div>
+                    </li>
+
+                    <li class="swiper-slide"> 
+                      <div class="cont_right_icon_box">
+                        <div class="cont_right_icon"><img src="img/coin_icon6.png" alt=""></div>
+                        <div class="cont_right_icon_txt">
+                          <h5>법무 및 생태계 증진 펀드</h5>
+                          <p>35%</p>
+                          <h6>105,000,000</h6>
+                      </div>
+                    </li>
+
+                                    
+                  </ul>
+                </div>
+              </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
 
   </main>
   
-  <footer>
-
-  </footer>
-
   <script>
     AOS.init();
   </script>
 
+  <script src="js/swiper.js"></script>
+  <script src="js/indicator.js"></script>
 
 </body>
 

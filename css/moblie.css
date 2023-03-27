@@ -1,18 +1,132 @@
 
 /*데탑*/
 @media screen and (max-width:1440px) {
+
+  /*intro3*/
+
+  .intro3_cont_left span.indicator{
+    left: -44.5%;
+  }
+  
+
+
+  /*coin*/
+
+  .coin_wrap_box{
+    align-items: center;
+  }
+
+  .coin_wrap_box_left img{
+    max-width: 90%;
+  }
+
+  .coin_right_cont_up h4{
+    font-size: 1.1em;
+  }
+
+  .coin_right_cont_down .swiper-wrapper .swiper-slide .cont_right_icon_box{
+    width: 160px;
+  }
+
+  .coin_right_cont_down .swiper-wrapper .swiper-slide .cont_right_icon_box .cont_right_icon img{
+    max-width: 70%;
+  }
 }
 
 
 
 /*노트북*/
   @media screen and (max-width:1024px) {
+
+  /*intro3*/
+
+  .intro3_cont_left span.indicator{
+    left: -55.5%;
+  }
+
+
+  /*coin*/
+
+
+  .coin_wrap{
+    width: 97%;
+    padding: 8% 0 8% 10%;
+  }
+
+  .coin_wrap_box{
+    display: block;
+
+  }
+
+  .coin_wrap_box_left{
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+
+  .coin_wrap_box_left img{
+    max-width: 50%;
+    margin-left: -100px;
+  }
+
+  .coin_wrap_box_right{
+    width: 100%;
+  }
+
+
+  .coin_right_cont_up{
+    margin-left: 95px;
+  }
+
+
+  .coin_right_cont_down .swiper-wrapper .swiper-slide .cont_right_icon_box .cont_right_icon_txt{
+    padding: 5%;
+  }
+
+
 }
 
 
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+    
+    /*intro3*/
+
+    .intro3_wrap_content{
+      flex-direction: column;
+    }
+
+    .intro3_cont_left span.indicator{
+      left: -13%;
+    }
+
+    .intro3_cont_left{
+      width: 100%;
+    }
+
+    .intro3_cont_right{
+      margin-top: 5%;
+    }
+
+    .intro3_cont_right_box{
+      width: 100%;
+      padding: 5% 12%; 
+    }
+
+    /*coin*/
+
+    .coin_wrap{
+      top: 20%;
+    }
+
+    .coin_wrap_box_left img{
+      margin-left: -60px;
+    }
+
+    .coin_right_cont_up{
+      margin-left: 65px;
+    }
 }
 
 
@@ -20,7 +134,30 @@
 /*모바일*/
 
 @media screen and (max-width:767px) {
+  
+  /*intro3*/
 
+  .intro3_cont_left span.indicator{
+    left: -19.5%;
+  }
+
+  /*coin*/
+
+
+  .coin_wrap{
+    width: 88%;
+    padding: 15% 0 8% 10%;
+  }
+
+  .coin_wrap_box_left{
+    margin-bottom: 12%;
+  }
+
+  .coin_right_cont_up{
+    margin-left: 6px;
+  }
+
+  
 }
 
 
@@ -28,7 +165,38 @@
 
 
 @media screen and (max-width:576px) {
+    
+  /*intro3*/
 
+  
+  .intro3_cont_left span.indicator{
+    left: -2%;
+  }
+
+    .intro3_cont_left span.indicator .intro3_outCircle::after{
+      left: -210%;
+    }
+
+    .intro3_cont_right_box{
+      border-radius: 0 50px 0 50px;
+    }
+
+
+  /*coin*/
+  
+  .coin_wrap{
+    width: 98%;
+    top: 23%;
+  }
+
+  .coin_wrap_box_left img{
+    max-width: 80%;
+    margin-left: -40px;
+  }
+
+  .coin_right_cont_up h4{
+    font-size: 0.9em;
+  }
 }
 
 
@@ -37,11 +205,33 @@
 
   @media screen and (max-width:425px) {
 
+    /*coin*/
+
+    .coin_right_cont_up_upTxt{
+      flex-direction: column;
+      margin-bottom: 0;
+    }
+  
+    .coin_right_cont_up_DownTxt{
+      flex-direction: column;
+    }
+  
+    .coin_right_cont_up h4{
+      margin-bottom: 5%;
+    }
 }
 
 
 
 /*모바일4 아이폰*/
     @media screen and (max-width:375px) {
+  
+      /*coin*/
+  
+  .coin_wrap{
+    width: 98%;
+    top: 25%;
+  }
+
 
 }

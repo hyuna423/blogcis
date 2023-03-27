@@ -24,4 +24,294 @@ h3{
 
 
 
-/*헤더*/
+/*intro3*/
+
+#intro3{
+  width: 100%;
+}
+
+#intro3 h3{
+  margin-bottom: 70px;
+}
+
+.intro3_wrap{
+  width: 100%;
+  border-left: 3px solid #F7F7F7;
+  border-right: 3px solid #F7F7F7;
+  padding: 113px 80px;
+
+}
+
+.intro3_wrap >h3> span{
+  font-weight: normal;
+}
+
+.intro3_wrap_content{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.intro3_cont_left{
+  width: 20%;
+}
+
+.intro3_cont_left .intro3_cont_left_texts{
+  width: 100%;
+  position: relative;
+}
+
+.intro3_cont_left .intro3_cont_left_texts a{
+  display: block;
+  width: 100%;
+  margin-bottom: 10%;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+
+
+.intro3_cont_left span.indicator{
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: -34%;
+  top: 12%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  transition: all 0.3s;
+}
+
+.intro3_cont_left span.indicator .intro3_circle {
+  width: 16px;
+  height: 16px;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  transition: all 0.3s;
+}
+
+.intro3_cont_left span.indicator .intro3_outCircle{
+  background-color: #fff;
+  border: 1px solid #CECCCC;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: relative;
+
+}
+
+.intro3_cont_left span.indicator .intro3_outCircle::after{
+  content: "";
+  width: 70px;
+  height: 1px;
+  background-color: #CECCCC;
+  position: absolute;
+  left:320%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.intro3_cont_left span.indicator .intro3_outCircle .intro3_inCircle{
+  background-color: #CECCCC;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+
+.item:not(.is-active):hover {
+  color: #000;
+}
+
+
+
+
+
+.intro3_cont_right{
+  width: 100%;
+
+}
+
+.intro3_cont_right_box{
+  width: 90%;
+  background-color: #DCF2FD;
+  border-radius: 0 80px 0 80px;
+  float: right;
+  padding: 6% 18%;
+}
+
+.intro3_cont_right_box img{
+  max-width: 100%;
+}
+
+
+
+
+/*coin*/
+
+#coin{
+  width: 100%;
+  height: 100vh;
+  padding: 80px 0;
+  background-color: #F7F7F7;
+  position: relative;
+}
+
+#coin h3{
+  color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+#coin:after{
+  content: "";
+  width: 100%;
+  height: 65vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(../img/coin_bg.png) no-repeat center;
+  background-size: cover;
+}
+
+.coin_wrap{
+  width: 87.5%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  background-color: #fff;
+  padding: 5% 0 5% 5%;
+  border-radius: 200px 0 0 0;
+  box-shadow: -10px -9px 10px rgba(0,0,0,.1);
+}
+
+
+
+#coin h3 span{
+  display: block;
+  font-size: 0.35em;
+  font-weight: normal;
+  margin-top: 1%;
+}
+
+.coin_wrap_box{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.coin_wrap_box_left{
+  width: 100%;
+  background-color: #fff;
+  z-index: 2;
+  position: relative;
+  border-radius: 200px 0 0 0;
+}
+
+.coin_wrap_box_left img{
+  max-width: 100%;
+}
+
+.coin_wrap_box_right{
+  width: 60%;
+}
+
+.coin_right_content{
+  width: 100%;
+}
+
+.coin_right_cont_up{
+  width: 100%;
+  color: #30A4DD;
+  margin-bottom: 10%;
+}
+
+.coin_right_cont_up_upTxt{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5%;
+}
+
+.coin_right_cont_up_DownTxt{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.coin_right_cont_up h4{
+  width: 100%;
+}
+
+.coin_right_cont_down {
+  width: 100%;
+}
+
+.coin_right_cont_down .swiper-container{
+  width: 100%;
+}
+
+.coin_right_cont_down .swiper-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.coin_right_cont_down .swiper-wrapper .swiper-slide{
+  width: 100%;
+}
+
+.coin_right_cont_down .swiper-wrapper .swiper-slide .cont_right_icon_box{
+  border: 1px solid #D9D9D9;
+  text-align: center;
+  width: 190px;
+  height: 100%;
+}
+
+.coin_right_cont_down .swiper-wrapper .swiper-slide .cont_right_icon_box.icon_box3 .cont_right_icon{
+  padding-top: 25%;
+}
+
+.coin_right_cont_down .swiper-wrapper .swiper-slide .cont_right_icon_box .cont_right_icon{
+  width: 100%;
+  height: 60%;
+  margin-bottom: 3%;
+  padding: 10%;
+}
+.coin_right_cont_down .swiper-wrapper .swiper-slide .cont_right_icon_box .cont_right_icon img{
+  max-width: 100%;
+}
+
+.coin_right_cont_down .swiper-wrapper .swiper-slide .cont_right_icon_box .cont_right_icon_txt{
+  background-color: #DCF2FD;
+  text-align: left;
+  padding: 10%;
+  width: 100%;
+  height: 38%;
+}
+
+.coin_right_cont_down .swiper-wrapper .swiper-slide .cont_right_icon_box .cont_right_icon_txt h5{
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.coin_right_cont_down .swiper-wrapper .swiper-slide .cont_right_icon_box .cont_right_icon_txt p{
+  font-weight: normal;
+  font-size: 0.8em;
+}
+
+.coin_right_cont_down .swiper-wrapper .swiper-slide .cont_right_icon_box .cont_right_icon_txt h6{
+  font-weight: normal;
+  font-size: 0.8em;
+}
+
