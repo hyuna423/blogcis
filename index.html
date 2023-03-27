@@ -6,7 +6,7 @@
   <title>Blogcis|블로직스</title>
 
   <!--meta-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
   <meta http-equiv="X-UA-Compatible" content="le=edge">
 
   <!--bootstrap-->
@@ -26,10 +26,10 @@
   <link href="img/favicon.ico" rel="apple-touch-icon">
 
   <!--js-->
-  <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="js/menu_scroll.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  
+
 </head>
 
 
@@ -39,55 +39,62 @@
 
   <header>
 
-    <div class="">
+    <div class="hd_wrap">
 
       <hgroup>
 
-        <h1><img src="img/" alt="logo"></h1>
+        <h1> <a href="index.html"><img src="img/blogcis_logo.png" alt="logo"></a></h1>
+        <h1 class="mb_logo"><a href="index.html"><img src="img/LM_logo.png" alt=""></a></h1>
 
       </hgroup>
 
 
-      <nav class="">
+      <nav class="pc_nav">
         <ul>
 
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">Blogics Coin</a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
         </ul>
       </nav>
 
 
       <!--반응형-->
 
-      <div class="">
+      <div class="mob_btn">
 
-        <img src="img/" alt="menu_button">
+        <span></span>
+
+        <script>
+          $(function () {
+            $('.mob_btn').click(function () {
+              $(this).toggleClass('active')
+            });
+          });
+        </script>
 
       </div>
 
-      <nav class="">
+      <nav class="mob_nav">
 
         <ul>
 
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">Blogics Coin
+            </a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
         </ul>
-
       </nav>
 
       <!--반응형 js-->
       <script type="text/javascript">
         $(function () {
-          $("").click(function () {
-            $("").animate({ width: "toggle" }, 250);
+          $(".mob_btn").click(function () {
+            $(".mob_nav").animate({ width: "toggle" }, 250);
           });
         });
 
@@ -98,9 +105,88 @@
   </header>
 
   <main>
+    <div class="bottom_gnb">
+      <button class="home_btn"><a href="#home"><i class="fa-solid fa-house-chimney-window"></i></a></button>
+      <button class="wallet"><a href="#"> <i class="fa-solid fa-wallet"></i></a></button>
+      <button class="whte_pp"><a href="Blogics-whitepaper-Ko.pdf"><i class="fa-solid fa-paste"></i></a></button>
+      <button class="lan"><a href="index_eng.html"><i class="fa-solid fa-earth-americas"></i></a></button>
+    </div>
+
+    <section id="home">
+      <div class="main_vid">
+        <video autoplay="" muted="" loop="" playsinline="">
+          <source src="vid/main_vid.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="home_area container">
+        <div class="home_txt">
+          <h2 class="text-flicker-in-glow">Blogics</h2>
+          <h4>블록체인을 통해 전세계 경제 성장의 장애물 글로벌 공급망 문제 해결에 기여합니다.</h4>
+          <p>블로직스(Blogics)는 블록체인(Blockchain)과 로지스틱스, 공급망(Logistics)의 합성어로서 <br>
+            글로벌 공급망 문제를 블록체인의 강점을 통해 해결하는데 기여하려는 사업주체의 의지를 담고 있습니다.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="intro">
+      <div class="ab_area ">
+        <div class="btn_sec">
+          <button type="button" onclick="location.href='Blogics-whitepaper-Ko.pdf' "><i class="fa-solid fa-file-zipper"
+              style="color: #ffffff;"></i> WhitePaper</button>
+          <button type="button" onclick="location.href='' "><i class="fa-solid fa-wallet" style="color: #ffffff;"></i>
+            Wallet</button>
+          <button type="button" onclick="location.href='index_eng.html' ""><i class=" fa-solid fa-language"
+            style="color: #ffffff;"></i> English_site</button>
+          <h3 data-aos=" fade-up" class="tracking-in-contract-bck-bottom">Intro <i class="fa-solid fa-circle-arrow-down"
+              style="color: #ffffff;"></i></h3>
+        </div>
+        <div class="int_txt container">
+          <h5>블로직스가 지향하는 목표는 이러합니다.</h5>
+          <ul>
+            <li data-aos="fade-down"><i class="fa-solid fa-pencil"></i> 가스 채굴 후보지역의 정확한 경제성 평가</li>
+            <li data-aos="fade-down"><i class="fa-solid fa-pencil"></i> 채굴과정에서의 효율성 및 안전성 평가 및 관리</li>
+            <li data-aos="fade-down"><i class="fa-solid fa-pencil"></i> 원가분석 및 국가별/기관별 판매가격에 대한 선물/현물 가격 설정 후 높은 판매 마진
+              확보</li>
+            <li data-aos="fade-down"><i class="fa-solid fa-pencil"></i> 가스 정제 및 상품화 과정에서의 위험요소 제거 및 경제성 증대</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="about">
+      <h3 data-aos="fade-up">Blogics</h3>
+      <i class="fa-regular fa-circle-dot" style="color: #e6e6e6;"></i>
+
+      <div class="ab_area container">
+        <div class="ab_content">
+          <div class="ab_img" data-aos="zoom-in">
+            <img src="img/intro2.png" alt="">
+          </div>
+          <div class="ab_txt">
+            <h4 data-aos="fade-up">How Blockchain is utilized as a solution?</h4>
+            <h6 data-aos="fade-up">블록체인의 강력한 <b>효율성</b> , <b>통합성</b> 은
+              데이터의 관리와 투명성이 가장 문제인
+              공급망 문제의 근본적인 해결책을 제시할 수 있습니다.</h6>
+            <p data-aos="fade-up">지금까지 수십억건의 거래를 통해 안전성, 비용효율성, 투명성이 검증 된 이더리움의 <br>
+              메인 프로토콜 ERC20 수만개의 공급망 관련 업체들의 커뮤니케이션 효율성을 극도로 높여 줍니다. <br>
+              데이터 무결성, 완벽에 가까운 보안, 비가역성으로 인한 정보안전.
+              <br><br>
+              모두 핵심 역량입니다.
+            </p>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </section>
 
   </main>
-  
+
   <footer>
 
   </footer>
@@ -109,6 +195,7 @@
     AOS.init();
   </script>
 
+  <script src="https://kit.fontawesome.com/66ee5b9576.js" crossorigin="anonymous"></script>
 
 </body>
 
