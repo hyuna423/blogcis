@@ -149,7 +149,7 @@ header .hd_wrap .pc_nav ul li a {
 
 .bottom_gnb a i {
   color: #ffff;
-  font-size: 3rem;
+  font-size: 2rem;
   transition: all .2s;
 }
 
@@ -233,6 +233,7 @@ header .hd_wrap .mob_nav {
 header .hd_wrap .mob_nav ul {
   float: right;
   width: 100%;
+  height: 100%;
   background: rgba(0, 0, 0, .8);
   padding: 100px 0 30px 0;
 }
@@ -241,7 +242,8 @@ header .hd_wrap .mob_nav li {
   margin-bottom: 10px;
   font-size: 20px;
   transition: .4s;
-  padding: 5% 0;
+  padding: 5% 20px;
+  text-align: left;
 }
 
 header .hd_wrap .mob_nav li a {
@@ -300,8 +302,6 @@ header .hd_wrap .mob_nav button img {
   transition-duration: 0.4s;
   transition-timing-function: ease;
 }
-
-/* home */
 
 
 /* home */
@@ -785,6 +785,7 @@ header .hd_wrap .mob_nav button img {
   margin-top: 20px;
 }
 
+
 /* about */
 
 #about {
@@ -838,7 +839,7 @@ header .hd_wrap .mob_nav button img {
 
 #about .ab_img img {
   max-width: 100%;
-  filter: drop-shadow(13px 13px 37px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
   border-radius: 50%;
   transition: .2s;
 }

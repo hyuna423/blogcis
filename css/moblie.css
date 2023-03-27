@@ -1,6 +1,7 @@
 /*데탑*/
 @media screen and (max-width:1440px) {
 
+  /* intro */
 
   #intro .int_txt {
     padding: 5% 0 10% 0;
@@ -33,6 +34,7 @@
 /*노트북*/
 @media screen and (max-width:1024px) {
 
+  /* header */
   header .hd_wrap .pc_nav {
     width: 85%;
   }
@@ -56,14 +58,8 @@
     width: 90%;
   }
 
-  /* intro */
-  #about .fa-regular.fa-circle-dot {
-    left: 30.8%;
-  }
 
-  #about .ab_area {
-    border: none
-  }
+  /* intro */
 
   #intro .btn_sec {
     position: absolute;
@@ -76,6 +72,15 @@
   #intro .int_txt {
     background-color: #fff;
     padding: 8% 0 12% 0;
+  }
+
+  /* about */
+  #about .fa-regular.fa-circle-dot {
+    left: 30.8%;
+  }
+
+  #about .ab_area {
+    border: none
   }
 
   #about .ab_txt h6 {
@@ -91,6 +96,8 @@
 
 /*아이패드 (768px)*/
 @media screen and (max-width:991px) {
+
+  /* intro */
   #intro .int_txt h5 {
     font-size: 1rem;
   }
@@ -98,6 +105,8 @@
   #intro .int_txt ul li {
     line-height: 1.2;
   }
+
+  /* about */
 
   #about h3 {
     top: -7%;
@@ -110,10 +119,8 @@
 /*모바일*/
 
 @media screen and (max-width:767px) {
-  .main_vid video {
-    height: 100%;
-    border-radius: 0;
-  }
+
+  /* header */
 
   header .hd_wrap .pc_nav {
     width: 86%;
@@ -124,6 +131,13 @@
   }
 
 
+  /* home */
+  .main_vid video {
+    height: 100%;
+    border-radius: 0;
+  }
+
+  /* intro */
   #intro .int_txt {
     padding: 10% 0 20% 0;
   }
@@ -134,6 +148,7 @@
     top: -40%;
   }
 
+  /* about */
   #about .ab_area .ab_content {
     flex-direction: column;
   }
@@ -159,6 +174,7 @@
 
 @media screen and (max-width:576px) {
 
+  /* header */
   .bottom_gnb {
     display: flex;
   }
@@ -179,6 +195,7 @@
     font-size: 1rem;
   }
 
+  /* intro */
   #intro .btn_sec {
     position: absolute;
     width: 100%;
@@ -215,6 +232,8 @@
     line-height: 2;
   }
 
+
+  /* about */
   #about .fa-regular.fa-circle-dot {
     left: 58.8%;
   }
