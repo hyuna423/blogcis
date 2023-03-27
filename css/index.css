@@ -867,6 +867,7 @@ header .hd_wrap .mob_nav button img {
 #about .ab_txt h4 {
   margin-bottom: 30px;
   font-size: 2rem;
+  font-weight: bold;
 }
 
 #about .ab_txt h6 {
