@@ -1,5 +1,8 @@
 
-
+#intro .int_txt ul li{
+  font-size: .8rem;
+  line-height: 1.2;
+}
     
 /*데탑*/
 @media screen and (max-width:1440px) {

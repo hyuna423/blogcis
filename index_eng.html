@@ -7,7 +7,7 @@
 
 
   <!--meta-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
   <meta http-equiv="X-UA-Compatible" content="le=edge">
 
   <!--bootstrap-->
@@ -28,7 +28,7 @@
   <link href="img/favicon.ico" rel="apple-touch-icon">
 
   <!--js-->
-  <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="js/menu_scroll.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -41,55 +41,61 @@
 
   <header>
 
-    <div class="">
+    <div class="hd_wrap">
 
       <hgroup>
 
-        <h1><img src="img/" alt="logo"></h1>
+        <h1> <a href="index_eng.html"><img src="img/blogcis_logo.png" alt="logo"></a></h1>
 
       </hgroup>
 
 
-      <nav class="">
+      <nav class="pc_nav">
         <ul>
 
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">Blogics Coin</a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
         </ul>
       </nav>
 
 
       <!--반응형-->
 
-      <div class="">
+      <div class="mob_btn">
 
-        <img src="img/" alt="menu_button">
+        <span></span>
+
+        <script>
+          $(function () {
+            $('.mob_btn').click(function () {
+              $(this).toggleClass('active')
+            });
+          });
+        </script>
 
       </div>
 
-      <nav class="">
+      <nav class="mob_nav">
 
         <ul>
 
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">Blogics Coin
+            </a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
         </ul>
-
       </nav>
 
       <!--반응형 js-->
       <script type="text/javascript">
         $(function () {
-          $("").click(function () {
-            $("").animate({ width: "toggle" }, 250);
+          $(".mob_btn").click(function () {
+            $(".mob_nav").animate({ width: "toggle" }, 250);
           });
         });
 
@@ -100,9 +106,95 @@
   </header>
 
   <main>
+    <div class="bottom_gnb">
+      <button class="home_btn"><a href="#home"><i class="fa-solid fa-house-chimney-window"></i></a></button>
+      <button class="wallet"><a href="#"> <i class="fa-solid fa-wallet"></i></a></button>
+      <button class="whte_pp"><a href="Blogics-whitepaper-Eng.pdf"><i class="fa-solid fa-paste"></i></a></button>
+      <button class="lan"><a href="index.html"><i class="fa-solid fa-earth-americas"></i></a></button>
+    </div>
+
+    <section id="home">
+      <div class="main_vid">
+        <video autoplay="" muted="" loop="" playsinline="">
+          <source src="vid/main_vid.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="home_area container">
+        <div class="home_txt">
+          <h2 class="text-flicker-in-glow">Blogics</h2>
+          <h4>Blockchain helps alleviating obstacles to global Economic Growth</h4>
+          <p>Blogics is a combination of blockchain, logistics, and supply chain, and contains the business entity's
+            willingness to contribute to solving global supply chain problems through the strength of the blockchain
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="intro">
+      <div class="ab_area ">
+        <div class="btn_sec">
+          <button type="button" onclick="location.href='Blogics-whitepaper-Eng.pdf' "><i class="fa-solid fa-file-zipper"
+              style="color: #ffffff;"></i> WhitePaper</button>
+          <button type="button" onclick="location.href='' "><i class="fa-solid fa-wallet" style="color: #ffffff;"></i>
+            Wallet</button>
+          <button type="button" onclick="location.href='index.html' ""><i class=" fa-solid fa-language"
+            style="color: #ffffff;"></i> English_site</button>
+          <h3 data-aos=" fade-up" class="tracking-in-contract-bck-bottom">Intro <i class="fa-solid fa-circle-arrow-down"
+              style="color: #ffffff;"></i></h3>
+        </div>
+        <div class="int_txt container">
+          <h5>Here's what Bloggs is aiming for.</h5>
+          <ul>
+            <li data-aos="fade-down"><i class="fa-solid fa-pencil"></i> Delivering supply chain-related data
+              distribution efficiency between global supply chain-related companies and entities</li>
+            <li data-aos="fade-down"><i class="fa-solid fa-pencil"></i> Prevention of forgery of transaction information
+              through data processing irreversibility of blockchain</li>
+            <li data-aos="fade-down"><i class="fa-solid fa-pencil"></i> Eliminate data and transaction bottlenecks by
+              maximizing transaction data efficiency</li>
+            <li data-aos="fade-down"><i class="fa-solid fa-pencil"></i> Business operation and sales maximization through
+              participation
+              of related companies around the world in the blogix platform</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="about">
+      <h3 data-aos="fade-up">Blogics</h3>
+      <i class="fa-regular fa-circle-dot" style="color: #e6e6e6;"></i>
+
+      <div class="ab_area container">
+        <div class="ab_content">
+          <div class="ab_img" data-aos="zoom-in">
+            <img src="img/intro2.png" alt="">
+          </div>
+          <div class="ab_txt">
+            <h4 data-aos="fade-up">How Blockchain is utilized as a solution?</h4>
+            <h6 data-aos="fade-up">Blockchain's robust efficiency, integration can provide a fundamental solution to
+              supply chain problems where data management and transparency are the most critical issues
+              .</h6>
+            <p data-aos="fade-up">Ethereum's main protocol ERC20 validated for safety, cost-effectiveness and
+              transparency through billions of transactions so far It dramatically increases communication efficiency
+              for tens of thousands of supply chain companies Data integrity, near-perfect security, information
+              security due to irreversibility
+              <br><br>
+              They're all core competencies
+
+            </p>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </section>
 
   </main>
-  
+
   <footer>
 
   </footer>
@@ -110,6 +202,8 @@
   <script>
     AOS.init();
   </script>
+
+  <script src="https://kit.fontawesome.com/66ee5b9576.js" crossorigin="anonymous"></script>
 
 </body>
 
