@@ -1184,6 +1184,7 @@ header .hd_wrap .mob_nav button img {
   background-image: linear-gradient(to right, rgb(247, 247, 247) 50%, rgb(255, 255, 255) 50%);
 }
 .roadmap_area {
+  background: #fff;
   width: 100%;
   display: flex;
   justify-content: flex-end;
