@@ -1,5 +1,8 @@
 /*데탑*/
 @media screen and (max-width:1440px) {
+  .main_vid video {
+    left: 2%;
+  }
 
   /* intro */
   .intro3_wrap {
