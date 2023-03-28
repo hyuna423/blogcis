@@ -1,52 +1,61 @@
-
-#intro .int_txt ul li{
+#intro .int_txt ul li {
   font-size: .8rem;
   line-height: 1.2;
 }
-    
+
+.roadmap_box ul li:nth-child(3) i {
+  top: 85.5%;
+  left: -2.0%;
+}
+
 /*데탑*/
 @media screen and (max-width:1440px) {
+  .roadmap_box ul li:nth-child(3) i {
+    left: -2.2%;
+  }
+
 }
 
 
 
 /*노트북*/
-  @media screen and (max-width:1024px) {
+@media screen and (max-width:1024px) {
+  .roadmap_box ul li:nth-child(3) i {
+    top: 88%;
+    left: -2.8%;
+  }
 }
 
 
 
-  /*아이패드 (768px)*/
-  @media screen and (max-width:991px) {
+/*아이패드 (768px)*/
+@media screen and (max-width:991px) {
+  .roadmap_box ul li:nth-child(3) i {
+    top: -2.5%;
+    left: 18%;
+  }
+
 }
 
 
 
 /*모바일*/
 
-@media screen and (max-width:767px) {
-
-}
+@media screen and (max-width:767px) {}
 
 
 /*모바일2*/
 
 
-@media screen and (max-width:576px) {
-
-}
+@media screen and (max-width:576px) {}
 
 
 
 /*모바일3 갤럭시*/
 
-  @media screen and (max-width:425px) {
-
-}
+@media screen and (max-width:425px) {}
 
 
 
 /*모바일4 아이폰*/
-    @media screen and (max-width:375px) {
-
-}
+@media screen and (max-width:375px) {}

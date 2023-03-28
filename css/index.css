@@ -828,7 +828,7 @@ header .hd_wrap .mob_nav button img {
 #about .fa-regular.fa-circle-dot {
   position: absolute;
   top: 50%;
-  right: 11.8%;
+  right: 12.2%;
   z-index: 3;
 }
 
@@ -1041,7 +1041,7 @@ header .hd_wrap .mob_nav button img {
 }
 
 .coin_wrap{
-  width: 87%;
+  width: 86.7%;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1069,7 +1069,7 @@ header .hd_wrap .mob_nav button img {
 }
 
 .coin_wrap_box_left{
-  width: 100%;
+  width: 35%;
   background-color: #fff;
   z-index: 2;
   position: relative;
@@ -1179,7 +1179,7 @@ header .hd_wrap .mob_nav button img {
 /* roadmap */
 #roadmap {
   width: 100%;
-  background: linear-gradient(left #F7F7F7 30%, right#ff0000 10%);
+  background-image: linear-gradient(to right, rgb(247, 247, 247) 50%, rgb(255, 255, 255) 50%);
 }
 .roadmap_area {
   width: 100%;
@@ -1264,9 +1264,11 @@ header .hd_wrap .mob_nav button img {
 }
 
 .roadmap_box ul li:nth-child(3) i {
-  top: 85.5%;
-  left: -2.0%;
+  top: 79.5%;
+  left: -2%;
 }
+
+
 
 
 /* contact */
