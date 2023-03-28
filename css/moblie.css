@@ -36,6 +36,7 @@
   }
 
   #about .ab_area .ab_content {
+    border-top: 3px solid #F7F7F7;
     padding: 100px 0;
   }
 

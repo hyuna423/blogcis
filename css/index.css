@@ -799,7 +799,7 @@ header .hd_wrap .mob_nav button img {
 
 #about .ab_area {
   background: #fff;
-  box-shadow: -11px -8px 13px -12px rgba(0, 0, 0, 0.1);
+  box-shadow: -11px 0 13px -12px rgba(0, 0, 0, 0.1);
   border-right: 3px solid #F7F7F7;
   position: relative;
 }
@@ -830,7 +830,7 @@ header .hd_wrap .mob_nav button img {
 #about .fa-regular.fa-circle-dot {
   position: absolute;
   top: 50%;
-  right: 12.2%;
+  right: 11.8%;
   z-index: 3;
 }
 
