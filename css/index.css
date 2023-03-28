@@ -95,6 +95,7 @@ header .hd_wrap .pc_nav ul li {
 }
 
 header .hd_wrap .pc_nav ul li a {
+  display: inline-block;
   position: relative;
   text-align: center;
 }
@@ -123,6 +124,7 @@ header .hd_wrap .pc_nav ul li a:hover::after {
 }
 
 header .hd_wrap .pc_nav ul li a {
+  display: inline-block;
   color: #fff;
 }
 
@@ -1371,6 +1373,7 @@ footer {
   width: 15%;
 }
 .f_right a{
+  display: inline-block;
   padding: 5%;
   border-radius: 5px;
   border: 1px solid rgba(114, 114, 114);

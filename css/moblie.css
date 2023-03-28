@@ -175,7 +175,7 @@
   .coin_wrap_box_left {
     text-align: center;
     margin-bottom: 5%;
-  }
+    width: 100%;}
 
 
   .coin_wrap_box_left img {
