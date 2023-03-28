@@ -350,17 +350,32 @@
   }
 
   .f_left {
-    width: 30%;
+    width: 90%;
     margin-bottom: 3%;
   }
 
   .f_center {
-    width: 50%;
+    width: 90%;
     margin-bottom: 3%;
   }
 
   .f_right {
+    width: 90%;
     margin-bottom: 3%;
+  }
+
+  .f_right a {
+    padding: 2%;
+  }
+
+  .f_left a {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+  }
+
+  .f_left:first-child a{
+    margin-right: 3%;
   }
 
 }
@@ -487,10 +502,6 @@
     padding: 2% 1.8%;
   }
 
-  /* footer */
-  .f_left {
-    width: 45%;
-  }
 
 
 }
@@ -638,7 +649,7 @@
 
   /* footer */
   .f_left {
-    width: 56%;
+    width: 80%;
   }
 
   .f_center {
@@ -663,6 +674,14 @@
 
   .contact_wrap form textarea {
     width: 80%;
+  }
+
+  .f_left a {
+    width: 90%;
+  }
+
+  .f_left:first-child a{
+    margin-right: 0;
   }
 }
 
