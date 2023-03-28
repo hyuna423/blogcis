@@ -168,6 +168,9 @@
     
   /*intro3*/
 
+  #intro3 h3 br{
+    display: none;
+  }
   
   .intro3_cont_left span.indicator{
     left: -2%;
