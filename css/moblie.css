@@ -2,9 +2,18 @@
 @media screen and (max-width:1440px) {
 
   /* intro */
+  .intro3_wrap {
+    width: 100%;
+    padding: 113px 20px;
+}
 
   #intro .int_txt {
     padding: 5% 0 10% 0;
+  }
+
+  #intro .btn_sec {
+    position: absolute;
+    top: -30%;
   }
 
   /* about */
@@ -25,6 +34,55 @@
 
   #about .ab_area .ab_content {
     padding: 100px 0;
+  }
+
+
+  /*intro3*/
+
+  .intro3_cont_left span.indicator {
+    left: -44.5%;
+  }
+
+
+
+  /*coin*/
+  .coin_wrap {
+    width: 100%;
+  }
+
+  .coin_wrap_box {
+    align-items: center;
+  }
+
+  .coin_wrap_box_left img {
+    max-width: 90%;
+  }
+
+  .coin_right_cont_up h4 {
+    font-size: 1.1em;
+  }
+
+  .coin_right_cont_down .swiper-wrapper .swiper-slide .cont_right_icon_box {
+    width: 160px;
+  }
+
+  .coin_right_cont_down .swiper-wrapper .swiper-slide .cont_right_icon_box .cont_right_icon img {
+    max-width: 70%;
+  }
+
+  /* roadmap */
+  .roadmap_box {
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .roadmap_box ul li:nth-child(3) i {
+    left: -2.2%;
+  }
+
+  /* footer */
+  .f_left {
+    width: 23%;
   }
 
 }
@@ -90,6 +148,89 @@
   #about .ab_txt p br {
     display: none;
   }
+
+
+  /*intro3*/
+
+  .intro3_cont_left span.indicator {
+    left: -13px;
+}
+.intro3_cont_left span.indicator .intro3_outCircle::after {
+  display: none;
+}
+
+
+
+  /*coin*/
+  .coin_wrap {
+    width: 97%;
+  }
+
+
+  .coin_wrap_box {
+    display: block;
+
+  }
+
+  .coin_wrap_box_left {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+
+  .coin_wrap_box_left img {
+    max-width: 50%;
+    margin-left: -100px;
+  }
+
+  .coin_wrap_box_right {
+    width: 100%;
+  }
+
+
+  .coin_right_cont_up {
+    margin-left: 95px;
+  }
+
+
+  .coin_right_cont_down .swiper-wrapper .swiper-slide .cont_right_icon_box .cont_right_icon_txt {
+    padding: 5%;
+  }
+
+  /* roadmap */
+
+  .roadmap_area {
+    width: 97%;
+    box-shadow: -11px -8px 13px -12px rgba(0, 0, 0, 0.1);
+  }
+
+  .roadmap_box ul li {
+    padding: 2%;
+  }
+
+  .roadmap_box ul li i {
+    left: -2.3%;
+    top: 16%;
+  }
+
+  .roadmap_box ul li:nth-child(3) i {
+    top: 90%;
+    left: -2.8%;
+  }
+
+  .roadmap_box ul p {
+    line-height: 3;
+    font-size: 0.8rem;
+  }
+
+  /* footer */
+  .f_left img {
+    max-width: 20%;
+  }
+
+  .contact_wrap form input.send {
+    width: 30%;
+  }
 }
 
 
@@ -110,6 +251,116 @@
 
   #about h3 {
     top: -7%;
+  }
+
+
+  /*intro3*/
+
+  .intro3_wrap_content {
+    flex-direction: column;
+  }
+
+
+  .intro3_cont_left {
+    width: 100%;
+  }
+
+  .intro3_cont_right {
+    margin-top: 5%;
+  }
+
+  .intro3_cont_right_box {
+    width: 100%;
+    padding: 5% 12%;
+  }
+
+  /*coin*/
+
+  .coin_wrap {
+    top: 20%;
+  }
+
+  .coin_wrap_box_left img {
+    margin-left: -60px;
+  }
+
+  .coin_right_cont_up {
+    margin-left: 65px;
+  }
+
+  /* roadmap */
+  .roadmap_box ul {
+    flex-direction: column;
+  }
+
+  .roadmap_box ul img {
+    margin-bottom: 3%;
+  }
+
+  .roadmap_box ul h5 {
+    margin-bottom: 2%;
+  }
+
+  .roadmap_box ul li {
+    width: 100%;
+    padding: 5%;
+  }
+
+  .roadmap_box ul li:nth-child(2) {
+    padding-left: 50%;
+  }
+
+  .roadmap_box ul li:nth-child(2)::before {
+    height: 1px;
+    width: 80%;
+    right: 20%;
+    bottom: 0;
+  }
+
+  .roadmap_box ul li:nth-child(2)::after {
+    height: 1px;
+    width: 80%;
+    left: 20%;
+    top: 100%;
+  }
+
+  .roadmap_box ul li i {
+    left: 80%;
+    top: -2.5%;
+  }
+
+  .roadmap_box ul li:nth-child(3) i {
+    top: -2.5%;
+    left: 20%;
+  }
+
+  /* footer */
+  .footer_area {
+    padding: 4% 0;
+  }
+
+  .footer_top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer_top h4 {
+    margin-bottom: 20px;
+  }
+
+  .f_left {
+    width: 30%;
+    margin-bottom: 3%;
+  }
+
+  .f_center {
+    width: 50%;
+    margin-bottom: 3%;
+  }
+
+  .f_right {
+    margin-bottom: 3%;
   }
 
 }
@@ -165,6 +416,82 @@
   #about .ab_txt {
     width: 90%;
   }
+
+
+  /*intro3*/
+
+  .intro3_wrap {
+    padding: 100px 0;
+  }
+
+  #intro3 h3 {
+
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    font-size: 2rem;
+  }
+
+  .intro3_wrap_content {
+    padding: 113px 80px;
+  }
+
+  .intro3_cont_left span.indicator {
+    left: -73px;
+}
+.intro3_cont_left span.indicator .intro3_outCircle::after {
+  display: block;
+}
+
+  /*coin*/
+  #coin h3 {
+    font-size: 2.5rem;
+  }
+
+  .coin_wrap {
+    width: 88%;
+    padding: 15% 0 8% 10%;
+  }
+
+  .coin_wrap_box_left {
+    margin-bottom: 12%;
+  }
+
+  .coin_right_cont_up {
+    margin-left: 6px;
+  }
+
+  /* roadmap */
+  .roadmap_box h3 {
+    font-size: 2.5rem;
+  }
+
+  .roadmap_box ul li:nth-child(2) {
+    padding-left: 30%;
+  }
+
+  /* contact */
+  .contact_wrap form input.email {
+    width: 90%;
+    padding: 1.5% 1.35%;
+  }
+
+  .contact_wrap form textarea {
+    margin-top: 2%;
+    width: 90%;
+    height: 300px;
+  }
+
+  .contact_wrap form input.send {
+    width: 50%;
+    padding: 2% 1.8%;
+  }
+
+  /* footer */
+  .f_left {
+    width: 45%;
+  }
+
 
 }
 
@@ -233,6 +560,14 @@
     line-height: 2;
   }
 
+  .intro3_cont_left span.indicator .intro3_outCircle::after {
+   display: none;
+  }
+
+  .intro3_cont_left span.indicator {
+    left: -14px;
+}
+
 
   /* about */
   #about .fa-regular.fa-circle-dot {
@@ -242,15 +577,140 @@
   #about .ab_txt h6 {
     font-size: 1.2rem;
   }
+
+  /*intro3*/
+
+  #intro3 h3 br {
+    display: none;
+  }
+
+  .intro3_cont_right_box {
+    border-radius: 0 50px 0 50px;
+  }
+
+  .intro3_wrap_content {
+    padding: 10px 30px;
+  }
+
+  .intro3_cont_right_box {
+    padding: 5%;
+  }
+
+
+  /*coin*/
+
+  .coin_wrap {
+    width: 100%;
+    top: 23%;
+    padding: 15% 0 0% 5%;
+  }
+
+  .coin_wrap_box_left img {
+    max-width: 80%;
+    margin-left: -40px;
+  }
+
+  .coin_right_cont_up h4 {
+    font-size: 0.9em;
+  }
+
+  /* roadmap */
+  #roadmap {
+    margin-top: 40%;
+  }
+
+  .roadmap_box {
+    width: 100%;
+  }
+
+  .roadmap_area {
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .roadmap_box ul li:nth-child(2) {
+    padding-left: 18%;
+  }
+
+  .roadmap_box ul li:nth-child(3) i {
+    left: 16%;
 }
+
+  /* footer */
+  .f_left {
+    width: 56%;
+  }
+
+  .f_center {
+    width: 100%;
+  }
+
+  .f_right {
+    width: 100%;
+  }
+
+  .f_right a {
+    padding: 3%;
+  }
+
+  #contact {
+    padding: 80px 0
+  }
+
+  .contact_wrap form input.email {
+    width: 80%;
+  }
+
+  .contact_wrap form textarea {
+    width: 80%;
+  }
+}
+
+
 
 
 
 /*모바일3 갤럭시*/
 
-@media screen and (max-width:425px) {}
+@media screen and (max-width:425px) {
+  /*coin*/
+
+  .coin_right_cont_up_upTxt {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .coin_right_cont_up_DownTxt {
+    flex-direction: column;
+  }
+
+  .coin_right_cont_up h4 {
+    margin-bottom: 5%;
+  }
+
+  /* roadmap */
+  #roadmap {
+    margin-top: 60%;
+  }
+
+  .footer_area {
+    padding: 13% 0;
+  }
+}
 
 
 
 /*모바일4 아이폰*/
-@media screen and (max-width:375px) {}
+@media screen and (max-width:375px) {
+  /*coin*/
+
+  .coin_wrap {
+    width: 98%;
+    top: 25%;
+  }
+
+  .roadmap_box ul li:nth-child(2) {
+    padding-left: 12%;
+  }
+
+}
